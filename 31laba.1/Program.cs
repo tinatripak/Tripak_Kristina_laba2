@@ -21,12 +21,12 @@ namespace _31laba._1
             Vegetables spinach = new Vegetables("Spinach", 17, 100, 2.7, 0.4, 0.8);
             Vegetables tomato = new Vegetables("Tomatos", 19, 100, 0.8, 0.3, 3.5);
             Chef salad = new Chef(avocado, cucumber, greens, spinach, tomato);
-            salad.Hierarchy();
+           /* salad.Hierarchy();
             salad.MixSalat();
             salad.SumKkal();
             salad.SortProteins();
             salad.ShowList();
-            salad.FindByCalories();
+            salad.FindByCalories();*/
             Console.WriteLine();
             Console.ReadKey();
         }

@@ -8,6 +8,7 @@ namespace _31laba._1
 {
     class Vegetables
     {
+        //Vegetables? What are they?
         public string name;
         public int calories;
         public int grams;
