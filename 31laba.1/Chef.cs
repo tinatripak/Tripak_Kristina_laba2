@@ -8,14 +8,14 @@ namespace _31laba._1
 {
     class Chef
     {
-        public List<Vegetables> ListOfVegetables = new List<Vegetables>();
+        /*public List<Vegetables> ListOfVegetables = new List<Vegetables>();
         public Chef(params Vegetables[] elements)
         {
             foreach (var n in elements)
             {
                 AddNode(n);
             }
-        }
+        }*/
         public void AddNode(Vegetables vegetables)
         {
             ListOfVegetables.Add(vegetables);
